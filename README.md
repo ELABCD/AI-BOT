@@ -1,32 +1,28 @@
-Claro, aquí tienes el README actualizado con las funcionalidades más recientes del bot:
+¡Claro! Aquí tienes una versión más detallada y estructurada de tu README siguiendo las directrices de GitHub, con emojis y una descripción clara. También he añadido una sección sobre la licencia y un ejemplo de cómo podrías insertar capturas de pantalla:
 🤖 Bot de Discord - Gestión de Imágenes con IA
 
-Este proyecto es un bot para Discord diseñado para gestionar imágenes mediante comandos simples. Utiliza un modelo de IA basado en Keras para analizar y organizar las imágenes que los usuarios suben. El bot también permite activar/desactivar su funcionamiento, y consultar las imágenes guardadas.
+¡Bienvenido al repositorio del Bot de Discord de Gestión de Imágenes! Este bot está diseñado para recibir imágenes de los usuarios, analizarlas mediante un modelo de inteligencia artificial (IA) basado en Keras y guardarlas para su posterior consulta. Además, el bot cuenta con comandos fáciles de usar para activar/desactivar su funcionamiento y consultar las imágenes guardadas.
 🚀 Funcionalidades
+1. Subir y Analizar Imágenes
 
-    Subir y Analizar Imágenes
-        Usa /subirimagen para subir una imagen al bot. Si la imagen se sube correctamente, será procesada por un modelo de IA para su clasificación y guardada en una carpeta local.
-        El bot te notificará cuando la imagen haya sido subida y guardada correctamente, mostrando también la clasificación realizada por el modelo.
+Usa /subirimagen para subir una imagen al bot. Esta imagen será procesada por un modelo de IA entrenado para su clasificación. Una vez subida, el bot te informará que la imagen ha sido guardada y procesada correctamente.
+2. Activar el Bot
 
-    Activar el Bot
-        Usa /Activar para activar el bot. Mientras no esté activado, el bot ignorará cualquier comando relacionado con la subida de imágenes.
-        El bot te confirmará que está activado y listo para usarse.
+Usa /Activar para activar el bot. Solo cuando esté activado, el bot responderá a los comandos de imágenes.
+3. Desactivar el Bot
 
-    Desactivar el Bot
-        Usa /Desactivar para desactivar el bot. Después de esto, no se responderán comandos como /subirimagen hasta que lo actives nuevamente.
-        El bot te confirmará que ha sido desactivado.
+Usa /Desactivar para desactivar el bot, de modo que no procesará más imágenes hasta que lo actives nuevamente.
+4. Ver Imágenes Guardadas
 
-    Ver Imágenes Guardadas
-        Usa /check para obtener una lista de las imágenes guardadas y su clasificación.
-        Este comando muestra los nombres de las imágenes guardadas en el bot y te permite revisar las imágenes previamente subidas y clasificadas.
+Usa /check para obtener una lista de las imágenes guardadas y su clasificación. Esto permite a los usuarios revisar qué imágenes han subido y cómo fueron clasificadas.
+5. Feedback Claro y Sencillo
 
-    Simplicidad y Feedback Claro
-        Si intentas subir una imagen sin activar el bot, el bot te notificará que no está activado y te recordará usar /Activar.
-        Si no subes una imagen con el comando /subirimagen, el bot te lo recordará también.
+    Si intentas subir una imagen sin activar el bot, el bot te notificará que necesitas activarlo primero.
+    Si no subes ninguna imagen, el bot te recordará que necesitas hacerlo.
 
 📚 Requisitos
 
-Para ejecutar este bot, necesitas:
+Para ejecutar este bot, necesitas tener instalado lo siguiente:
 
     Python 3.9 o superior
     Librerías de Python:
@@ -35,3 +31,38 @@ Para ejecutar este bot, necesitas:
         keras
         requests
         os
+
+Instala las dependencias con:
+
+pip install -r requirements.txt
+
+⚙️ Configuración
+
+    Clona el repositorio a tu máquina local.
+    Asegúrate de tener los archivos keras_model.h5 (el modelo de IA) y labels.txt (las etiquetas del modelo) en el directorio raíz del proyecto.
+    Configura tu token de Discord en el archivo bot.py.
+    Ejecuta el bot con:
+
+python bot.py
+
+🎮 Comandos Disponibles
+
+    /Activar: Activa el bot para empezar a recibir comandos de imágenes.
+    /Desactivar: Desactiva el bot y evita que procese imágenes.
+    /subirimagen: Sube una imagen al bot, la guarda y la clasifica.
+    /check: Muestra las imágenes guardadas y sus clasificaciones.
+
+📁 Estructura de Archivos
+
+    bot.py: El archivo principal que contiene la lógica del bot.
+    keras_model.h5: El modelo de IA entrenado.
+    labels.txt: El archivo con las etiquetas del modelo.
+    imagenes/: Carpeta donde se guardan las imágenes subidas.
+
+🖼️ Capturas de Pantalla
+
+Aquí puedes añadir capturas de pantalla para ilustrar el funcionamiento del bot o los resultados de la clasificación:
+
+📄 Licencia
+
+Este proyecto está bajo la licencia MIT. Puedes usar, modificar y distribuir el código bajo los términos de la licencia MIT.
