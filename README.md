@@ -1,4 +1,3 @@
-¡Claro! Aquí tienes una versión más detallada y estructurada de tu README siguiendo las directrices de GitHub, con emojis y una descripción clara. También he añadido una sección sobre la licencia y un ejemplo de cómo podrías insertar capturas de pantalla:
 🤖 Bot de Discord - Gestión de Imágenes con IA
 
 ¡Bienvenido al repositorio del Bot de Discord de Gestión de Imágenes! Este bot está diseñado para recibir imágenes de los usuarios, analizarlas mediante un modelo de inteligencia artificial (IA) basado en Keras y guardarlas para su posterior consulta. Además, el bot cuenta con comandos fáciles de usar para activar/desactivar su funcionamiento y consultar las imágenes guardadas.
