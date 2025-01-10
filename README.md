@@ -60,7 +60,8 @@ python bot.py
 
 🖼️ Capturas de Pantalla
 
-Aquí puedes añadir capturas de pantalla para ilustrar el funcionamiento del bot o los resultados de la clasificación:
+![image](https://github.com/user-attachments/assets/ded2b12c-15ce-4244-aef5-2c860a692667)
+
 
 📄 Licencia
 
