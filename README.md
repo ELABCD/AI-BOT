@@ -60,7 +60,8 @@ python bot.py
 
 🖼️ Capturas de Pantalla
 
-![image](https://github.com/user-attachments/assets/ded2b12c-15ce-4244-aef5-2c860a692667)
+![image](https://github.com/user-attachments/assets/986493fb-d5ec-426e-b944-3c586a013390)
+
 
 
 📄 Licencia
